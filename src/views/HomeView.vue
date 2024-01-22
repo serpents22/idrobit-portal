@@ -8,16 +8,18 @@ import { ref } from 'vue'
       <h1 class="text-2xl">Welcome to</h1>
       <h1 class="text-[40px] font-semibold">Idrobit Portal</h1>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 mx-auto gap-4 lg:gap-10">
-      <div class="card">
-        <a href="https://idrolife.portale-idrobit.com" target="_blank">
-          <img src="../assets/idrolife-icon.png" alt="">
-        </a>
-      </div>
-      <div class="card">
-        <a href="https://idrores.portale-idrobit.com" target="_blank">
-          <img src="../assets/idrores-icon.png" alt="">
-        </a>
+    <div class="flex flex-col items-center mx-auto gap-4 lg:gap-10">
+      <div class="flex flex-col lg:flex-row gap-4 lg:gap-10">
+        <div class="card">
+          <a href="https://idrolife.portale-idrobit.com" target="_blank">
+            <img src="../assets/idrolife-icon.png" alt="">
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://idrores.portale-idrobit.com" target="_blank">
+            <img src="../assets/idrores-icon.png" alt="">
+          </a>
+        </div>
       </div>
       <div class="card">
         <a href="https://idropro.portale-idrobit.com" target="_blank">
