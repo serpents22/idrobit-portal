@@ -1,0 +1,39 @@
+<script setup>
+import { ref } from 'vue'
+
+</script>
+<template>
+  <div class="bg-[#353535] xl:bg-[url('@/assets/login-bg.png')] w-full h-full bg-cover absolute z-0 flex flex-col gap-4 lg:gap-20 p-[20px]">
+    <div class="mx-auto text-white pt-10 lg:pt-20">
+      <h1 class="text-2xl">Welcome to</h1>
+      <h1 class="text-[40px] font-semibold">Idrobit Portal</h1>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 mx-auto gap-4 lg:gap-10">
+      <div class="card">
+        <a href="https://idrolife.portale-idrobit.com" target="_blank">
+          <img src="../assets/idrolife-icon.png" alt="">
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://idrores.portale-idrobit.com" target="_blank">
+          <img src="../assets/idrores-icon.png" alt="">
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://idropro.portale-idrobit.com" target="_blank">
+          <img src="../assets/idropro-icon.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+p {
+  @apply select-none
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg items-center justify-center flex p-6 w-60
+}
+</style>
