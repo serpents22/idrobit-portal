@@ -9,7 +9,7 @@ import { ref } from 'vue'
       <h1 class="text-2xl">Benvenuti nei</h1>
       <h1 class="text-[40px] font-semibold">Portali di Idrobit</h1>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 items-center mx-auto gap-4 lg:gap-10">
+    <div class="grid grid-cols-1 xl:grid-cols-2 items-center mx-auto gap-4 lg:gap-10">
       <div class="card">
         <a href="https://idrolife.portale-idrobit.com" target="_blank">
           <img src="../assets/idrolife-icon.png" alt="">
@@ -26,8 +26,8 @@ import { ref } from 'vue'
         </a>
       </div>
       <div class="card">
-        <a href="https://idroserre.portale-idrobit.com" target="_blank">
-          <img src="../assets/idroserre-icon.png" alt="">
+        <a href="https://irrilife.portale-idrobit.com" target="_blank">
+          <img src="../assets/irrilife-icon.png" alt="">
         </a>
       </div>
     </div>
